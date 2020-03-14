@@ -21,7 +21,8 @@ public class Touchable
     Delegate _OnHold;
     /// <summary>
     /// Executes the provided function when a hand is touching holding or has clicked (touched and let go) an object
-    ///<example>
+    ///<example> <code>
+    ///
     ///
     ///  Model model = Model.FromMesh(Mesh.GenerateSphere(0.1f, 3), Default.Material);
     ///  Touchable cube;
@@ -37,6 +38,7 @@ public class Touchable
     ///  {
     ///     cube.Update();
     ///  })) ;
+    ///  </code>
     /// </example>
     /// </summary>
 
